@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: AbhayaLibre;
+    src: url(fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf);
+}
+html{
+    display: flex;
+    justify-content: center;
+    font-family: AbhayaLibre;
+}
+body{
+    width: 80%;
+}
+header {
+    text-align: center;
+    margin-top: 7.5vh;
+    cursor: default;
+}
+h1 {
+    font-weight: normal;
+}
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    margin-inline: 15px;
+}
+
+    
+a:hover{
+    background-color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-block: 7.5px;;
+    list-style-type: none;
+}
+
+a:nth-child(1){
+    background-color: #c9f1fd;
+}

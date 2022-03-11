@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: AbhayaLibre;
-    src: url(fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf);
+    src: url(fonts/AbhayaLibre-Regular.ttf);
 }
 html{
     display: flex;
@@ -18,6 +18,7 @@ body{
 header {
     text-align: center;
     margin-top: 7.5vh;
+    cursor: default;
 }
 h1 {
     font-weight: normal;
@@ -30,12 +31,20 @@ nav {
     margin-bottom: 100px;
     margin-inline: 15px;
 }
-li {
+
+    
+a:hover{
+    background-color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: black;
     text-align: center;
     padding-block: 7.5px;;
     list-style-type: none;
 }
-li:nth-child(1){
+
+a:nth-child(1){
     background-color: #c9f1fd;
 }
 .gallery {
