@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: AbhayaLibre;
-    src: url(fonts/AbhayaLibre-Regular.ttf);
+    font-family: 'AbhayaLibre';
+    src: url(fonts\Abhaya_Libre\AbhayaLibre-Regular.ttf);
 }
 html{
     display: flex;
     justify-content: center;
-    font-family: AbhayaLibre;
+    font-family: 'AbhayaLibre';
 }
 body{
     width: 80%;
