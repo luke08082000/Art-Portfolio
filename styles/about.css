@@ -44,6 +44,6 @@ a {
     list-style-type: none;
 }
 
-a:nth-child(1){
+a:nth-child(3){
     background-color: #c9f1fd;
 }
