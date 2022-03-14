@@ -25,7 +25,7 @@ h1 {
 }
 nav {
     display: grid;
-    width: 73vw;
+    width: 79vw;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
@@ -48,24 +48,28 @@ a:nth-child(1){
 }
 .gallery {
     display: grid;
-    justify-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
-    row-gap: 30px;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5%;
     padding-bottom: 60px;
-    overflow: auto;
+    overflow: hidden;
 }
 img {
-    height: 425px;
-    width: 475px;
+    height: 40vh;
+    width: 25vw;
+}
+img:nth-child(1), img:nth-child(4){
+    justify-self: start;
+}
+img:nth-child(3), img:nth-child(6){
+    justify-self: end;
 }
 img:nth-child(4){
-    height: 500px;
-    width: 400px;
-    margin-left: -75px;
+    height: 48vh;
+    width: 21vw;
 }
 img:nth-child(5){
-    height: 425px;
-    width: 550px;
-    margin-left: -75px;
+    width: 29vw;
+    margin-left: -15%;
 }
