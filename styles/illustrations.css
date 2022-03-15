@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: AbhayaLibre;
+    font-family: 'AbhayaLibre';
     src: url(fonts\Abhaya_Libre\AbhayaLibre-Regular.ttf);
 }
 html{
     display: flex;
     justify-content: center;
-    font-family: AbhayaLibre;
+    font-family: 'AbhayaLibre';
 }
 body {
     width: 80vw;
@@ -25,12 +25,15 @@ h1 {
 }
 nav {
     display: grid;
+<<<<<<< HEAD
     width: 79vw;
+=======
+>>>>>>> parent of a605935 (centered)
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
     margin-bottom: 100px;
-    margin-inline: auto;
+    margin-inline: 15px;
 }   
 a:hover{
     background-color: aliceblue;
@@ -48,10 +51,16 @@ a:nth-child(1){
 }
 .gallery {
     display: grid;
+<<<<<<< HEAD
     justify-content: center;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 5%;
+=======
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    row-gap: 30px;
+>>>>>>> parent of a605935 (centered)
     padding-bottom: 60px;
     overflow: hidden;
 }
@@ -70,6 +79,17 @@ img:nth-child(4){
     width: 21vw;
 }
 img:nth-child(5){
+<<<<<<< HEAD
     width: 29vw;
     margin-left: -15%;
+=======
+    height: 425px;
+    width: 550px;
+    margin-left: -75px;
+}
+@media only screen and (max-width: 1300px){
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+>>>>>>> parent of a605935 (centered)
 }
