@@ -26,7 +26,10 @@ h1 {
 nav {
     display: grid;
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 79vw;
+=======
+>>>>>>> parent of a605935 (centered)
 =======
 >>>>>>> parent of a605935 (centered)
     grid-template-columns: repeat(4, 1fr);
@@ -52,11 +55,14 @@ a:nth-child(1){
 .gallery {
     display: grid;
 <<<<<<< HEAD
+<<<<<<< HEAD
     justify-content: center;
     justify-items: center;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 5%;
 =======
+=======
+>>>>>>> parent of a605935 (centered)
     justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
     row-gap: 30px;
@@ -91,5 +97,8 @@ img:nth-child(5){
     .gallery {
         grid-template-columns: 1fr;
     }
+<<<<<<< HEAD
+>>>>>>> parent of a605935 (centered)
+=======
 >>>>>>> parent of a605935 (centered)
 }
