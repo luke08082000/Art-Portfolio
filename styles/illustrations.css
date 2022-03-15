@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: AbhayaLibre;
+    font-family: 'AbhayaLibre';
     src: url(fonts\Abhaya_Libre\AbhayaLibre-Regular.ttf);
 }
 html{
     display: flex;
     justify-content: center;
-    font-family: AbhayaLibre;
+    font-family: 'AbhayaLibre';
 }
 body {
-    width: 80vw;
+    width: 80%;
 }
 header {
     text-align: center;
@@ -25,13 +25,13 @@ h1 {
 }
 nav {
     display: grid;
-    width: 79vw;
+    width: 73vw;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
     margin-bottom: 100px;
     margin-inline: auto;
-}   
+}
 a:hover{
     background-color: aliceblue;
 }
@@ -48,28 +48,24 @@ a:nth-child(1){
 }
 .gallery {
     display: grid;
-    justify-content: center;
     justify-items: center;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 5%;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    row-gap: 30px;
     padding-bottom: 60px;
-    overflow: hidden;
+    overflow: auto;
 }
 img {
-    height: 40vh;
-    width: 25vw;
-}
-img:nth-child(1), img:nth-child(4){
-    justify-self: start;
-}
-img:nth-child(3), img:nth-child(6){
-    justify-self: end;
+    height: 425px;
+    width: 475px;
 }
 img:nth-child(4){
-    height: 48vh;
-    width: 21vw;
+    height: 500px;
+    width: 400px;
+    margin-left: -75px;
 }
 img:nth-child(5){
-    width: 29vw;
-    margin-left: -15%;
+    height: 425px;
+    width: 550px;
+    margin-left: -75px;
 }
