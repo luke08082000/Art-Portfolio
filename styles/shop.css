@@ -36,7 +36,7 @@ nav {
 a:hover{
     background-color: aliceblue;
 }
-a {
+.menulinks {
     text-decoration: none;
     color: black;
     text-align: center;
@@ -47,3 +47,64 @@ a {
 a:nth-child(4){
     background-color: #c9f1fd;
 }
+
+#img-links img {
+    width: 322px;
+    height: 111px;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.logo:nth-child(2){
+    float: right;
+}
+#link-1{
+    margin-left: 100px;
+}
+#link-2{
+    float: right;
+    margin-right: 100px;
+}
+#text{
+    border-style: solid;
+    border-radius: 5px;
+    padding-inline: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+#p1{
+    width:296px;
+    height:235px;
+    margin-top:15px;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+#flex-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#flex-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#p2{
+    width:506px;
+    height:403px;
+}
+#p3{
+    width:281px;
+    height:437px;
+}
+#p4{
+    width:262px;
+    height:291px;
+}
+#p5{
+    width:338px;
+    height:470px;
+    float: right;
+}
+
