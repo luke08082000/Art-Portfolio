@@ -7,14 +7,7 @@
     font-family: 'AbhayaLibre';
     src: url(fonts\Abhaya_Libre\AbhayaLibre-Regular.ttf);
 }
-html{
-    display: flex;
-    justify-content: center;
-    font-family: 'AbhayaLibre';
-}
-body {
-    width: 80%;
-}
+
 header {
     text-align: center;
     margin-top: 7.5vh;
@@ -25,7 +18,7 @@ h1 {
 }
 nav {
     display: grid;
-    width: 73vw;
+    width: 938px;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
@@ -46,26 +39,31 @@ a {
 a:nth-child(1){
     background-color: #c9f1fd;
 }
-.gallery {
-    display: grid;
-    justify-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
-    row-gap: 30px;
-    padding-bottom: 60px;
-    overflow: hidden;
+.gallery img:nth-child(1), img:nth-child(2), img:nth-child(3) {
+    width: 300px;
+    height: 250px;
 }
-img {
-    height: 425px;
-    width: 475px;
+img:nth-child(4) {
+    width: 250px;
+    height: 300px;
 }
-img:nth-child(4){
-    height: 500px;
-    width: 400px;
-    margin-left: -75px;
+img:nth-child(5) {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -50px;
 }
-img:nth-child(5){
-    height: 425px;
-    width: 550px;
-    margin-left: -75px;
+img:nth-child(6) {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: -50px;
+}
+.gallery{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery img{
+    margin: 10px;
 }
