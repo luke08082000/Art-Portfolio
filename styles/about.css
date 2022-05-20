@@ -28,7 +28,7 @@ nav {
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-inline: 15px;
 }
 
@@ -46,4 +46,28 @@ a {
 
 a:nth-child(3){
     background-color: #c9f1fd;
+}
+img{
+    width: 313px;
+    height: 328px;
+    display: block;
+    margin: 0 auto;
+}
+div{
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px;
+    margin-block: 12px;
+}
+div h1{
+    font-weight: bold;
+}
+#body{
+    padding-inline: 10px;
+    padding-block: 20px;
+    font-size: 16px;
+}
+.bold{
+    font-weight: bold;
 }
