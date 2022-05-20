@@ -79,20 +79,23 @@ a:nth-child(4){
     height:235px;
     margin-top:15px;
     margin-bottom: 70px;
-    margin-left: 100px;
+    margin-left: 30px;
 }
-#flex-1{
-    display: flex;
-    justify-content: space-evenly;
+#row-1{
     margin-bottom: 30px;
-}
-#flex-2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+#row-2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
 }
 #p2{
     width:506px;
     height:403px;
+    margin-left: 80px;
 }
 #p3{
     width:281px;
