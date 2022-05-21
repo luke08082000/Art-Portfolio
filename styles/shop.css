@@ -3,17 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: AbhayaLibre;
-    src: url(fonts/Abhaya_Libre/AbhayaLibre-Regular.ttf);
-}
 html{
     display: flex;
     justify-content: center;
-    font-family: AbhayaLibre;
 }
 body{
-    width: 80%;
+    font-family: 'Abhaya Libre', serif;
 }
 header {
     text-align: center;
