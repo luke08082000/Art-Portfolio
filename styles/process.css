@@ -21,11 +21,12 @@ h1 {
 }
 nav {
     display: grid;
+    width: 938px;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
     margin-bottom: 100px;
-    margin-inline: 15px;
+    margin-inline: auto;
 }
 
     

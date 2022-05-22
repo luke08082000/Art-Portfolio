@@ -5,9 +5,10 @@ const next = document.querySelector('#next');
 const buttons = document.querySelector('#buttons');
 
 const images = document.querySelectorAll('img');
-const slide = Array.from(images);
+const slides = Array.from(images);
 
-images.forEach(image => {
+//lightbox
+slides.forEach(image => {
     image.addEventListener('click', e => {
         lightbox.classList.add('active');
         buttons.style.display = 'block';
@@ -17,23 +18,23 @@ images.forEach(image => {
             lightbox.removeChild(lightbox.firstChild);
         }
         lightbox.appendChild(img);
-        console.log(slide.indexOf(image))
-        let index = slide.indexOf(image)
+        //slidesr
+        let index = slides.indexOf(image);
         prev.addEventListener('click', e => {
             index--;
             if (index < 0) {
-                index = slide.length-1;
-                img.src = slide[index].src;
+                index = slides.length-1;
+                img.src = slides[index].src;
             }
-            img.src = slide[index].src;
+            img.src = slides[index].src;
         })
         next.addEventListener('click', e => {
             index++;
-            if (index > slide.length-1) {
+            if (index > slides.length-1) {
                 index = 0;
-                img.src = slide[index].src;
+                img.src = slides[index].src;
             }
-            img.src = slide[index].src;
+            img.src = slides[index].src;
         })
     })
 })

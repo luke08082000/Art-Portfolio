@@ -20,6 +20,7 @@ h1 {
 }
 nav {
     display: grid;
+    width: 938px;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     margin-top: 75px;
