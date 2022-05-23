@@ -8,7 +8,6 @@ html{
     justify-content: center;
 }
 body{
-    width: 70%;
     font-family: 'Abhaya Libre', serif;
 }
 header {
@@ -29,7 +28,6 @@ nav {
     margin-inline: auto;
 }
 
-    
 a:hover{
     background-color: aliceblue;
 }
@@ -43,4 +41,43 @@ a {
 
 a:nth-child(2){
     background-color: #c9f1fd;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 5%;
+}
+.painting_container{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    justify-content: center;
+}
+.painting_container img{
+    width: 40vw;
+    height: 32vw;
+    display: block;
+}
+.painting_container p{
+    color: rgb(87, 87, 87);
+    margin-top: 0;
+    font-size: 1.5vw;
+    margin-bottom: 6%;
+}
+.waves-text{
+    padding-left: 4%;
+    line-height: 1.4vw;
+}
+.mirror {
+    margin-top: 3%;
+}
+.mirror img{
+    padding-left: 10%;
+}
+.mirror-text{
+    padding-top: 4%;
+    padding-right: 4%;
+    line-height: 2vw;
 }
