@@ -11,7 +11,8 @@ html{
         font-family: 'Abhaya Libre', serif;
     }
 }
-
+$hover-color: aliceblue;
+$bg-color: #c9f1fd;
 header {
     text-align: center;
     margin-top: 7.5vh;
@@ -30,7 +31,7 @@ nav {
     margin-inline: auto;
 
     a:hover{
-        background-color: aliceblue;
+        background-color: $hover-color;
     }
     a {
         text-decoration: none;
@@ -41,12 +42,9 @@ nav {
     }
     
     a:nth-child(3){
-        background-color: #c9f1fd;
+        background-color: $bg-color;
     }
 }
-
-    
-
 img{
     width: 313px;
     height: 328px;
